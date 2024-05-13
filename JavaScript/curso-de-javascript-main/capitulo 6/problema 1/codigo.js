@@ -21,6 +21,7 @@ for (var i = 1; i <= 20; i++) {
     });
     div.tabIndex = i;
     div.classList.add(`item-${i}`,'flex-item');
+	/* esto ordena y deja al inicio lo que se quiere*/
     div.innerHTML = ...llave;
 	documentFragment.appendChild(div);
 }
